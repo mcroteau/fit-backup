@@ -1,0 +1,10 @@
+
+welcome
+about
+join
+login
+logout
+log results x n Number of workouts
+dashboard
+share
+

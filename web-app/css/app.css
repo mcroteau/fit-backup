@@ -1,0 +1,17 @@
+.fc-event{
+	opacity : 0.8
+}
+
+.fc-event.completed{
+	background: #0000ff
+}
+
+.fc-event.skipped{
+	background: #333
+}
+
+.fc-event:hover{
+	color:#fff;
+	text-decoration:none;
+	opacity:1.0
+}

@@ -1,0 +1,96 @@
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="layout" content="main" />
+  <title>Login</title>
+</head>
+<body>
+  <g:if test="${flash.message}">
+    <div class="message">${flash.message}</div>
+  </g:if>
+  <g:form action="signIn">
+    <input type="hidden" name="targetUri" value="${targetUri}" />
+    <table>
+      <tbody>
+        <tr>
+          <td>Username:</td>
+          <td><input type="text" name="username" value="${username}" /></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" name="password" value="" /></td>
+        </tr>
+        <tr>
+          <td>Remember me?:</td>
+          <td><g:checkBox name="rememberMe" value="${rememberMe}" /></td>
+        </tr>
+        <tr>
+          <td />
+          <td><input type="submit" value="Sign in" id==""/></td>
+        </tr>
+        <tr>
+          <td />
+          <td><a href="javascript:" id="login" class="btn">Sign In</a></td>
+        </tr>
+        <tr>
+          <td />
+          <td><a href="javascript:" id="create" class="btn">Create Role</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </g:form>
+  
+  
+  <script type="text/javascript">
+  	var $login = $('#login'),
+		$create = $('#create');
+	
+	$(document).ready(function(){
+		$login.click(login)
+		$create.click(create)
+	});
+	
+	function create(){
+		
+		var opts = {
+			url : '/motus/role/create',
+			type: 'get',
+			success : success,
+			error : error
+		}
+		
+		$.ajax(opts)
+		
+	}
+	
+	
+	function login(){
+		var creds = {
+			"username" : "motus",
+			"password" : "motus"
+		}
+		
+		var opts = {
+			url : '/motus/auth/signIn',
+			type: 'post',
+			data : JSON.stringify(creds),
+			contentType : 'application/json',
+			success : success,
+			error : error
+		}
+		
+		$.ajax(opts)
+	}
+	
+	function success(){
+		console.info('success', arguments);
+	}
+	
+	function error(){
+		console.warn('error', arguments);
+	}
+	
+  </script>
+</body>
+</html>

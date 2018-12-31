@@ -1,0 +1,16 @@
+/web-app/WEB-INF
+
+.classpath
+.project
+.settings
+.launch
+.tmproj
+
+# logs
+stacktrace.log
+/test/reports
+
+/target/
+
+# project release file
+*.war

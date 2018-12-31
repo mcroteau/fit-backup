@@ -1,0 +1,68 @@
+package org.motus.workouts
+import org.motus.workouts.PlannedWorkout
+
+class LegsBack extends PlannedWorkout {
+	
+	String link = "legsBack"
+	String displayName = "Legs & Back"
+
+	int balanceLungesReps
+	int balanceLungesWeight
+	
+	int calfRaiseSquatReps
+	int calfRaiseSquatWeight
+	
+	int reverseGripPullUps1
+	
+	int superSkatersReps
+	
+	boolean wallSquats
+	
+	int wideFrontPullUps1
+	
+	int stepBackLungesReps
+	int stepBackLungesWeight
+	
+	int alternatingSideLungesReps
+	int alternatingSideLungesWeight
+	
+	int closeGripPullUps1
+	
+	boolean singleLegWallSquats
+	
+	int deadLiftSquatsReps
+	int deadLiftSquatsWeight
+	
+	int switchGripPullUps1
+	
+	int threeWayLungesReps
+	int threeWayLungesWeight
+	
+	int sneakyLunges
+	
+	int reverseGripPullUps2
+	
+	boolean chairSalutations1
+	boolean chairSalutations2
+	
+	int toeRollIsoLungesReps
+	
+	int wideFrontPullUps2
+	
+	boolean grouchoWalk
+	
+	int calfRaisesReps
+	int calfRaisesWeight
+	
+	int closeGripPullUps2
+	
+	boolean eightyTwentySpeedSquats
+	
+	int switchGripPullUps2
+	
+	
+    static constraints = { 
+		id generator: 'sequence', params:[sequence:'ID_LEGS_BACK_PK_SEQ']
+	}
+	
+}

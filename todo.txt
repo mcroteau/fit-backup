@@ -1,0 +1,64 @@
+
+
+http://www.amandakjones.com/whats-the-difference-between-p90x-classic-doubles-and-lean.php
+http://ryanalberts.com/92/grails-findby-for-hasmany-relationship/
+http://mrpaulwoods.wordpress.com/2011/01/23/a-pattern-to-simplify-grails-controllers/
+
+
+COMPETITION - first release?
+
+
+Notification Types
+- user comments
+- motivate requests
+- achievements
+- motivate
+
+
+notification
+- id
+- account
+- type/class
+- type id
+- description
+- date created
+
+
+
+
+
+** Dashboard
+- # days into plan
+- # days remaining
+- # workouts left
+- # workouts completed
+- # abs skipped
+- # workouts skipped
+- start new plan
+-> improvements
+- first workouts compared to last w/percent increase/decrease
+- # plans/cycles completed
+- # plans stopped
+
+
+
+
+Features to add
+- account privacy
+- progress photos
+
+
+
+
+* Additional Features to consider for first release
+follow users
+notifications
+competitions
+goals
+progress photos
+friends
+workout comments
+photo comments
+integration facebook, google+, twitter
+integration with fitbit, jawbone
+

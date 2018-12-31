@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>back_biceps_entry</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">back_biceps_entry</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/motus/account/dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Workout Plans</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Workout Plan Incomplete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'Back &amp; Biceps')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=wideFrontPullUps</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=lawnMowersReps</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=lawnMowersWeight</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=twentyOnesReps</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=twentyOnesWeight</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=crossBodyCurlsReps</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=crossBodyCurlsWeight</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=switchGripPullUps</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=elbowsOutLawnMowersReps</td>
+	<td>9</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=standingBicepCurlsReps</td>
+	<td>9</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=elbowsOutLawnMowersWeight</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=standingBicepCurlsReps</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=standingBicepCurlsWeight</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=concentrationCurlsReps</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=concentrationCurlsWeight</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=cornCobPullUps</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=reverseGripBentoverRowsReps</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=reverseGripBentoverRowsWeight</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=openArmCurlsReps</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=openArmCurlsWeight</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=staticArmCurlsReps</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=staticArmCurlsWeight</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=towelPullUps</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=congdonLocomotivesReps</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=congdonLocomotivesWeight</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=crouchingCohenCurlsReps</td>
+	<td>9</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=crouchingCohenCurlsWeight</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=oneArmCorkscrewCurlsReps</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=oneArmCorkscrewCurlsWeight</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=chinUps</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=seatedBentOverBackFlysReps</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=seatedBentOverBackFlysWeight</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=curlUpHammerDownsReps</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=curlUpHammerDownsWeight</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=hammerCurlsReps</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=hammerCurlsWeight</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=maxRepPullUps</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=supermans</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=inOutHammerCurlsReps</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=inOutHammerCurlsWeight</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=stripSetCurls1Reps</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=stripSetCurls1Weight</td>
+	<td>9</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=stripSetCurls2Reps</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=stripSetCurls2Weight</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=stripSetCurls3Reps</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=stripSetCurls3Weight</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=abRipperCompleted</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=notes</td>
+	<td>completed back &amp; biceps</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=_action_update</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;wideFrontPullUps&quot;]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;lawnMowersReps&quot;]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;lawnMowersWeight&quot;]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;twentyOnesReps&quot;]</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;twentyOnesWeight&quot;]</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;crossBodyCurlsReps&quot;]</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;crossBodyCurlsWeight&quot;]</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;switchGripPullUps&quot;]</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;elbowsOutLawnMowersReps&quot;]</td>
+	<td>9</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;elbowsOutLawnMowersWeight&quot;]</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;standingBicepCurlsReps&quot;]</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;standingBicepCurlsWeight&quot;]</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;concentrationCurlsReps&quot;]</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;concentrationCurlsWeight&quot;]</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;cornCobPullUps&quot;]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;reverseGripBentoverRowsReps&quot;]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;reverseGripBentoverRowsWeight&quot;]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;openArmCurlsReps&quot;]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;openArmCurlsWeight&quot;]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;staticArmCurlsReps&quot;]</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;staticArmCurlsWeight&quot;]</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;towelPullUps&quot;]</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;congdonLocomotivesReps&quot;]</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;congdonLocomotivesWeight&quot;]</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;crouchingCohenCurlsReps&quot;]</td>
+	<td>9</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;crouchingCohenCurlsWeight&quot;]</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;oneArmCorkscrewCurlsReps&quot;]</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;oneArmCorkscrewCurlsWeight&quot;]</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;chinUps&quot;]</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;seatedBentOverBackFlysReps&quot;]</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;seatedBentOverBackFlysWeight&quot;]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;curlUpHammerDownsReps&quot;]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;curlUpHammerDownsWeight&quot;]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;hammerCurlsReps&quot;]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;hammerCurlsWeight&quot;]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;maxRepPullUps&quot;]</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;supermans&quot;]</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;inOutHammerCurlsReps&quot;]</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;inOutHammerCurlsWeight&quot;]</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;stripSetCurls1Reps&quot;]</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;stripSetCurls1Weight&quot;]</td>
+	<td>9</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;stripSetCurls2Reps&quot;]</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;stripSetCurls2Weight&quot;]</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;stripSetCurls3Reps&quot;]</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;stripSetCurls3Weight&quot;]</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;abRipperCompleted&quot;]</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//textarea[@name=&quot;notes&quot;]</td>
+	<td>completed back &amp; biceps</td>
+</tr>
+</tbody></table>
+</body>
+</html>

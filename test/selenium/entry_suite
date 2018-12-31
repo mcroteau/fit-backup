@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="login_motus">login_motus</a></td></tr>
+<tr><td><a href="start_plan">start_plan</a></td></tr>
+<tr><td><a href="cardiox_entry">cardiox_entry</a></td></tr>
+<tr><td><a href="plyometrics_entry">plyometrics_entry</a></td></tr>
+<tr><td><a href="yogax_entry">yogax_entry</a></td></tr>
+<tr><td><a href="xstretch_entry">xstretch_entry</a></td></tr>
+<tr><td><a href="kenpox_entry">kenpox_entry</a></td></tr>
+<tr><td><a href="core_synergistics_entry">core_synergistics_entry</a></td></tr>
+<tr><td><a href="back_biceps_entry">back_biceps_entry</a></td></tr>
+<tr><td><a href="chest_back_entry">chest_back_entry</a></td></tr>
+<tr><td><a href="legs_back_entry">legs_back_entry</a></td></tr>
+<tr><td><a href="chest_shoulders_triceps_entry">chest_shoulders_triceps_entry</a></td></tr>
+<tr><td><a href="arms_shoulders_entry">arms_shoulders_entry</a></td></tr>
+<tr><td><a href="stop_plan">stop_plan</a></td></tr>
+<tr><td><a href="logout">logout</a></td></tr>
+</tbody></table>
+</body>
+</html>

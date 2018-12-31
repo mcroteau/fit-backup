@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>log_entry</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">log_entry</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/motus/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Workout Plans</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Workout Plan Incomplete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Legs &amp; Back</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=balanceLunges</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=calfRaiseSquats</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=reverseGripPullUps1</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=superSkaters</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=wallSquats</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=wideFrontPullUps</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=stepBackLunge</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=alternatingSideLunge</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=closedGripPullUps</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=singleLegWallSquats</td>
+	<td>9</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=deadLiftSquats</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=switchGripPullUps</td>
+	<td>11</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=threeWayLunges</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=sneakyLunges</td>
+	<td>13</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=reverseGripChinUps2</td>
+	<td>14</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=chairSalutations</td>
+	<td>15</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=toeRollIsoLunge</td>
+	<td>16</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=wideFrontPullUps2</td>
+	<td>17</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=grouchoWalk</td>
+	<td>18</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=calfRaises</td>
+	<td>19</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=closedGripPullUps2</td>
+	<td>20</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=sieberSpeedSquats</td>
+	<td>21</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=switchGripPullUps2</td>
+	<td>22</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=abRipperCompleted</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=notes</td>
+	<td>completed </td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=_action_update</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;balanceLunges&quot;]</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;calfRaiseSquats&quot;]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;reverseGripPullUps1&quot;]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;superSkaters&quot;]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;wallSquats&quot;]</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;wideFrontPullUps&quot;]</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;stepBackLunge&quot;]</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;alternatingSideLunge&quot;]</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;closedGripPullUps&quot;]</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;singleLegWallSquats&quot;]</td>
+	<td>9</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;deadLiftSquats&quot;]</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;switchGripPullUps&quot;]</td>
+	<td>11</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;threeWayLunges&quot;]</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;sneakyLunges&quot;]</td>
+	<td>13</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;reverseGripChinUps2&quot;]</td>
+	<td>14</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;chairSalutations&quot;]</td>
+	<td>15</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;toeRollIsoLunge&quot;]</td>
+	<td>16</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;wideFrontPullUps2&quot;]</td>
+	<td>17</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;grouchoWalk&quot;]</td>
+	<td>18</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;calfRaises&quot;]</td>
+	<td>19</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;closedGripPullUps2&quot;]</td>
+	<td>20</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;sieberSpeedSquats&quot;]</td>
+	<td>21</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;switchGripPullUps2&quot;]</td>
+	<td>22</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//textarea[@name=&quot;notes&quot;]</td>
+	<td>completed</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;abRipperCompleted&quot;]</td>
+	<td>on</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
